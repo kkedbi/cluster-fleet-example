@@ -1,0 +1,4 @@
+apiVersion: v1
+name: dbiservices-fleet-cluster
+description: Cluster template deployed using fleet
+version: 0.0.1
