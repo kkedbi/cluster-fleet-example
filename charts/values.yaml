@@ -45,7 +45,7 @@ nodepools:
     subnetId: ''
     region: eu-central-1
     zone: a
-    nodepoolCreateSecurityGroup: true
+    createSecurityGroup: true
 
   - etcd: false
     controlplane: false
@@ -75,5 +75,5 @@ nodepools:
     subnetId: ''
     region: eu-central-1
     zone: a
-    nodepoolCreateSecurityGroup: true
+    createSecurityGroup: true
 
