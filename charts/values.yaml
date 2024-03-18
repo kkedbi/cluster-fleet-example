@@ -1,9 +1,9 @@
+kubernetesVersion: v1.26.13+rke2r1
+
 cluster:
   # specify cluster labels
   labels: 
     cluster-provisionning: 'fleet'
-
-cloudprovider: amazonec2
 
 # enable monitoring
 monitoring:

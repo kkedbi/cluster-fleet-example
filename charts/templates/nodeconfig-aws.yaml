@@ -1,4 +1,3 @@
-{{- if eq .Values.cloudprovider "amazonec2" }}
 {{- range $index, $nodepool := .Values.nodepools }}
 apiVersion: rke-machine-config.cattle.io/v1
 kind: Amazonec2Config
@@ -206,6 +205,5 @@ vpcId: {{ $nodepool.vpcId }}
 {{- end }}
 {{- if $nodepool.zone }}
 zone: {{ $nodepool.zone }}
-{{- end }}
 {{- end }}
 {{- end }}
